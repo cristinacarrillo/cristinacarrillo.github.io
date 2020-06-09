@@ -47,6 +47,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+p.definicion{
+  max-width: 50rem;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -278,10 +282,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.9);
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links, #header.header-top h2, p {
   display: none;
 }
 
@@ -330,7 +334,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.75);
   padding: 30px;
 }
 
@@ -599,7 +603,7 @@ section .container {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #fff;
+  color: #676663;
 }
 
 .resume .resume-item {
@@ -895,7 +899,7 @@ section .container {
   color: #444444;
   padding: 20px;
   width: 100%;
-  background: rgba(255, 255, 255, 0.08);
+  background: #f8d3d3;
 }
 
 .contact .info-box i.bx {
@@ -909,17 +913,18 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(103, 102, 99);
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: rgb(103, 102, 99);
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
+  display: inline;
 }
 
 .contact .info-box .social-links {
@@ -930,7 +935,7 @@ section .container {
 .contact .info-box .social-links a {
   font-size: 18px;
   display: inline-block;
-  color: #fff;
+  color: rgb(103, 102, 99);
   line-height: 1;
   margin-right: 12px;
   transition: 0.3s;
