@@ -283,7 +283,7 @@ p.definicion{
   background: rgba(255, 255, 255, 0.9);
 }
 
-#header.header-top .social-links, #header.header-top h2, p {
+#header.header-top .social-links, #header.header-top h2 {
   display: none;
 }
 
