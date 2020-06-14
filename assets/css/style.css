@@ -413,7 +413,7 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0px;
- 
+
 }
 
 /*--------------------------------------------------------------
@@ -528,13 +528,8 @@ section .container {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
-<<<<<<< HEAD
-  margin-top: 10px;
-  margin-bottom: 10px;
-=======
   margin-top: 20px;
   margin-bottom: 20px;
->>>>>>> caa20a57f827115474e4ee0abe2a400aaf216d91
   color: #676663;
 }
 
@@ -562,7 +557,7 @@ section .container {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
-  color: 
+  color:
 }
 .resume .resume-item p {
   font-size: 12px;
@@ -724,7 +719,7 @@ section .container {
   transition: 0.3s;
   position: relative;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);  
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .portfolio .portfolio-wrap::before {
