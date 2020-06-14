@@ -283,7 +283,7 @@ p.definicion{
   background: rgba(255, 255, 255, 0.9);
 }
 
-#header.header-top .social-links, #header.header-top h2 {
+#header.header-top .social-links, #header.header-top h2, p {
   display: none;
 }
 
@@ -528,8 +528,13 @@ section .container {
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
+<<<<<<< HEAD
   margin-top: 10px;
   margin-bottom: 10px;
+=======
+  margin-top: 20px;
+  margin-bottom: 20px;
+>>>>>>> caa20a57f827115474e4ee0abe2a400aaf216d91
   color: #676663;
 }
 
