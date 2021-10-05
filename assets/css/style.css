@@ -500,22 +500,16 @@ section .container {
 .skills .progress-bar-wrap {
   background: rgba(255, 255, 255, 0.15);
 }
-.skills .progress-bartwo-wrap {
-  background: rgba(255, 255, 255, 0.15);
+.skills .progress-bar.pro2 {
+  background-color: #996666;
 }
-
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
   background-color: #E03B3B;
 }
-.skills .progress-bartwo {
-  width: 1px;
-  height: 10px;
-  transition: .9s;
-  background-color: #996666;
-}
+
 /*--------------------------------------------------------------
 # Interests
 --------------------------------------------------------------*/
